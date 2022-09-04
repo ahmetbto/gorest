@@ -13,6 +13,6 @@ func main() {
 }
 
 func index(w http.ResponseWriter, r *http.Request) {
-	w.Write([]byte("index çPagee."))
+	w.Write([]byte("index Page."))
 
 }
